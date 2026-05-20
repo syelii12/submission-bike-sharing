@@ -17,8 +17,10 @@ st.set_page_config(
 # =========================
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+
 day_df = pd.read_csv(BASE_DIR / "day_clean.csv")
 hour_df = pd.read_csv(BASE_DIR / "hour_clean.csv")
+
 
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
 hour_df["dteday"] = pd.to_datetime(hour_df["dteday"])
