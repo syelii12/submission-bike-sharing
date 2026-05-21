@@ -1,4 +1,8 @@
 streamlit
 pandas
 matplotlib
+<<<<<<< HEAD
 seaborn
+=======
+seaborn
+>>>>>>> a34fed0 (fix requirements)
